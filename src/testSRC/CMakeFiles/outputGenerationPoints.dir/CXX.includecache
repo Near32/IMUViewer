@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/physics/IMoveable.h
+../utils/math.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/math.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/physics/IShape.h
+IMoveable.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/physics/IMoveable.h
+vector
+-
+memory
+-
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/testSRC/testGenerationPointsOBB.cpp
+../utils/math.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/math.h
+../physics/IShape.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/physics/IShape.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/MVG/MVG.h
+../Mat/Mat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+../Quaternion/Quaternion.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Quaternion/Quaternion.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+iostream
+-
+limits
+-
+cstdlib
+-
+math.h
+-
+time.h
+-
+assert.h
+-
+opencv2/opencv.hpp
+-
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Quaternion/Quaternion.h
+../Mat/Mat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/math.h
+Mat/Mat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+MVG/MVG.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/MVG/MVG.h
+Quaternion/Quaternion.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Quaternion/Quaternion.h
+

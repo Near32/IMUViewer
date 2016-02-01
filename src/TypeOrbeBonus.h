@@ -1,0 +1,11 @@
+#ifndef TYPEORBEBONUS_H
+#define TYPEORBEBONUS_H
+
+enum TypeOrbeBonus{
+	NONE,
+	TEMPSDECISION, 
+	RALENTISSEMENT,
+	ACCELERATION
+};
+	
+#endif

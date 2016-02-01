@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/testSRC/LCPSolverTEST/LCPSolver.cpp
+LCPSolver.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/testSRC/LCPSolverTEST/LCPSolver.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/testSRC/LCPSolverTEST/LCPSolver.h
+../../utils/Mat/Mat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/utils/Mat/Mat.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/testSRC/LCPSolverTEST/testLCPSolver.cpp
+iostream
+-
+LCPSolver.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/testSRC/LCPSolverTEST/LCPSolver.h
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/GunvarrelLASTONE/Gunvarrel/src/utils/Mat/Mat.h
+iostream
+-
+limits
+-
+cstdlib
+-
+math.h
+-
+time.h
+-
+assert.h
+-
+opencv2/opencv.hpp
+-
+

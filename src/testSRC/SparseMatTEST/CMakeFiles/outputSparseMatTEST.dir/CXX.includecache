@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/testSRC/SparseMatTEST/mainSparseMatTEST.cpp
+../../utils/SparseMat/SparseMat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/SparseMat/SparseMat.h
+../../utils/Mat/Mat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+time.h
+-
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+iostream
+-
+limits
+-
+cstdlib
+-
+math.h
+-
+time.h
+-
+assert.h
+-
+opencv2/opencv.hpp
+-
+
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/SparseMat/SparseMat.h
+iostream
+-
+cstdlib
+-
+map
+-
+../Mat/Mat.h
+/home/kevin/Documents/IS 3A/PLT/DEPOT/Gunvarrel/src/utils/Mat/Mat.h
+

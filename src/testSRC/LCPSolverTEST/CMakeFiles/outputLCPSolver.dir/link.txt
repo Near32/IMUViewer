@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g    CMakeFiles/outputLCPSolver.dir/testLCPSolver.cpp.o CMakeFiles/outputLCPSolver.dir/LCPSolver.cpp.o  -o bin/outputLCPSolver -rdynamic 
