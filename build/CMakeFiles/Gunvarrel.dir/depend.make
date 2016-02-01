@@ -22,6 +22,7 @@ CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/Obstacle.h
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/OrbeBonus.h
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/StateJoint.h
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/TrackBallCamera.h
+CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/Traj.h
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/TypeCommand.h
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/TypeELF.h
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/TypeOrbeBonus.h
@@ -102,6 +103,7 @@ CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/Obstacle.h
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/OrbeBonus.h
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/StateJoint.h
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/TrackBallCamera.h
+CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/Traj.h
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/TypeCommand.h
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/TypeELF.h
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/TypeOrbeBonus.h
@@ -168,6 +170,7 @@ CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/Obstacle.h
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/OrbeBonus.h
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/StateJoint.h
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/TrackBallCamera.h
+CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/Traj.h
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/TypeCommand.h
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/TypeELF.h
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/TypeOrbeBonus.h
@@ -244,6 +247,7 @@ CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/Obstacle.h
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/OrbeBonus.h
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/StateJoint.h
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/TrackBallCamera.h
+CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/Traj.h
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/TypeCommand.h
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/TypeELF.h
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/TypeOrbeBonus.h
@@ -327,6 +331,7 @@ CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/Obstacle.h
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/OrbeBonus.h
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/StateJoint.h
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/TrackBallCamera.h
+CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/Traj.h
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/TypeCommand.h
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/TypeELF.h
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/TypeOrbeBonus.h
@@ -380,6 +385,7 @@ CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/Obstacle.h
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/OrbeBonus.h
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/StateJoint.h
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/TrackBallCamera.h
+CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/Traj.h
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/TypeCommand.h
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/TypeELF.h
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/TypeOrbeBonus.h

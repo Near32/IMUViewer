@@ -9,6 +9,7 @@ extern std::mutex ressourcesMutex;
 EtatEngine::EtatEngine(Game* game_, GameState gameState_) : IEngine(game_,gameState_)
 {
 	env = new Environnement();
+	traj = new Traj();
 	
 	init();
 	
@@ -109,9 +110,9 @@ void EtatEngine::init()
 	//Qt2Euler(q, &roll, &pitch, &yaw);
 	//std::cout << " Quat2Euler results : " << roll << " : " << pitch << " : " << yaw << std::endl;
 	obs_se3.setOrientation( q );
-	env->addElement( new ElementMobile(std::string("OBS"), new se3(obs_se3), hwd) );
+	/*env->addElement( new ElementMobile(std::string("OBS"), new se3(obs_se3), hwd) );
 	
-	/*
+	
 	t.set( t.get(3,1)+2.0f+offset, 3,1);	
 	env->addElement( new ElementMobile(std::string("picBAS"), new se3(t), hwd) );
 	

@@ -7,12 +7,15 @@
 #include <thread>
 #include <mutex>
 
+#include "Traj.h"
+
 class EtatEngine : public IEngine
 {
 	public :
 	
 	Environnement* env;
 	Simulation* sim;
+	Traj *traj;
 	
 	//---------------------------------------------
 	//---------------------------------------------

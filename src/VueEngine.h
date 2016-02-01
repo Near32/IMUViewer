@@ -15,6 +15,8 @@
 #include <mutex>
 
 #include <X11/Xlib.h>
+#include "Traj.h"
+
 
 class VueEngine : public IEngine
 {

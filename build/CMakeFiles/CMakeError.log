@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1685657949/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1685657949.dir/build.make CMakeFiles/cmTryCompileExec1685657949.dir/build
-make[1]: Entering directory `/home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1685657949.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1685657949.dir/CheckSymbolExists.c.o   -c /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1685657949
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1685657949.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1685657949.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1685657949 -rdynamic 
-CMakeFiles/cmTryCompileExec1685657949.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:/usr/bin/make "cmTryCompileExec288025863/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec288025863.dir/build.make CMakeFiles/cmTryCompileExec288025863.dir/build
+make[1]: Entering directory `/home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec288025863.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec288025863.dir/CheckSymbolExists.c.o   -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec288025863
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec288025863.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec288025863.dir/CheckSymbolExists.c.o  -o cmTryCompileExec288025863 -rdynamic 
+CMakeFiles/cmTryCompileExec288025863.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1685657949] Error 1
-make: *** [cmTryCompileExec1685657949/fast] Error 2
+make[1]: *** [cmTryCompileExec288025863] Error 1
+make[1]: Leaving directory `/home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec288025863/fast] Error 2
 
-File /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,21 +33,21 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2057975808/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2057975808.dir/build.make CMakeFiles/cmTryCompileExec2057975808.dir/build
-make[1]: Entering directory `/home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2057975808.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2057975808.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2057975808
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2057975808.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2057975808.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2057975808 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec3281613412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3281613412.dir/build.make CMakeFiles/cmTryCompileExec3281613412.dir/build
+make[1]: Entering directory `/home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3281613412.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3281613412.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3281613412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3281613412.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3281613412.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3281613412 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2057975808] Error 1
-make[1]: Leaving directory `/home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2057975808/fast] Error 2
+make[1]: *** [cmTryCompileExec3281613412] Error 1
+make[1]: Leaving directory `/home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3281613412/fast] Error 2
 
 

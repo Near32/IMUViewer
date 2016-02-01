@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/Development/RPI/IMUViewer
+CMAKE_SOURCE_DIR = /home/kevin/Development/RPI/IMUViewer/IMUViewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/Development/RPI/IMUViewer/build
+CMAKE_BINARY_DIR = /home/kevin/Development/RPI/IMUViewer/IMUViewer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Gunvarrel.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/Gunvarrel.dir/flags.make
 
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o: ../src/mainENGINE.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/mainENGINE.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/mainENGINE.cpp
 
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/mainENGINE.cpp > CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/mainENGINE.cpp > CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/mainENGINE.cpp -o CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/mainENGINE.cpp -o CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/Gunvarrel.dir/src/mainENGINE.cpp.o.provides.build: CMakeFiles/Gunvarr
 
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o: ../src/EtatEngine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/EtatEngine.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/EtatEngine.cpp
 
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/EtatEngine.cpp > CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/EtatEngine.cpp > CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/EtatEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/EtatEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/Gunvarrel.dir/src/EtatEngine.cpp.o.provides.build: CMakeFiles/Gunvarr
 
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o: ../src/IEngine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/IEngine.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IEngine.cpp
 
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/IEngine.cpp > CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IEngine.cpp > CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/IEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o.requires
@@ -123,17 +123,17 @@ CMakeFiles/Gunvarrel.dir/src/IEngine.cpp.o.provides.build: CMakeFiles/Gunvarrel.
 
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o: ../src/VueEngine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/VueEngine.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/VueEngine.cpp
 
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/VueEngine.cpp > CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/VueEngine.cpp > CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/VueEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/VueEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/Gunvarrel.dir/src/VueEngine.cpp.o.provides.build: CMakeFiles/Gunvarre
 
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o: ../src/ControllerEngine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/ControllerEngine.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/ControllerEngine.cpp
 
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/ControllerEngine.cpp > CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/ControllerEngine.cpp > CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/ControllerEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/ControllerEngine.cpp -o CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o.requires
@@ -169,17 +169,17 @@ CMakeFiles/Gunvarrel.dir/src/ControllerEngine.cpp.o.provides.build: CMakeFiles/G
 
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o: ../src/Game.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/Game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Game.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/Game.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Game.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Game.cpp
 
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/Game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/Game.cpp > CMakeFiles/Gunvarrel.dir/src/Game.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Game.cpp > CMakeFiles/Gunvarrel.dir/src/Game.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/Game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/Game.cpp -o CMakeFiles/Gunvarrel.dir/src/Game.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Game.cpp -o CMakeFiles/Gunvarrel.dir/src/Game.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/Game.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/Game.cpp.o.requires
@@ -192,17 +192,17 @@ CMakeFiles/Gunvarrel.dir/src/Game.cpp.o.provides.build: CMakeFiles/Gunvarrel.dir
 
 CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o: ../src/Environnement.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/Environnement.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Environnement.cpp
 
 CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/Environnement.cpp > CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Environnement.cpp > CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/Environnement.cpp -o CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Environnement.cpp -o CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o.requires
@@ -215,17 +215,17 @@ CMakeFiles/Gunvarrel.dir/src/Environnement.cpp.o.provides.build: CMakeFiles/Gunv
 
 CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o: ../src/IElement.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/IElement.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElement.cpp
 
 CMakeFiles/Gunvarrel.dir/src/IElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/IElement.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/IElement.cpp > CMakeFiles/Gunvarrel.dir/src/IElement.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElement.cpp > CMakeFiles/Gunvarrel.dir/src/IElement.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/IElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/IElement.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/IElement.cpp -o CMakeFiles/Gunvarrel.dir/src/IElement.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElement.cpp -o CMakeFiles/Gunvarrel.dir/src/IElement.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o.requires
@@ -238,17 +238,17 @@ CMakeFiles/Gunvarrel.dir/src/IElement.cpp.o.provides.build: CMakeFiles/Gunvarrel
 
 CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o: ../src/IElementFixe.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/IElementFixe.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElementFixe.cpp
 
 CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/IElementFixe.cpp > CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElementFixe.cpp > CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/IElementFixe.cpp -o CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElementFixe.cpp -o CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o.requires
@@ -261,17 +261,17 @@ CMakeFiles/Gunvarrel.dir/src/IElementFixe.cpp.o.provides.build: CMakeFiles/Gunva
 
 CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o: ../src/Obstacle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/Obstacle.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Obstacle.cpp
 
 CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/Obstacle.cpp > CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Obstacle.cpp > CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/Obstacle.cpp -o CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Obstacle.cpp -o CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o.requires
@@ -284,17 +284,17 @@ CMakeFiles/Gunvarrel.dir/src/Obstacle.cpp.o.provides.build: CMakeFiles/Gunvarrel
 
 CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o: ../src/OrbeBonus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/OrbeBonus.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/OrbeBonus.cpp
 
 CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/OrbeBonus.cpp > CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/OrbeBonus.cpp > CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/OrbeBonus.cpp -o CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/OrbeBonus.cpp -o CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o.requires
@@ -307,17 +307,17 @@ CMakeFiles/Gunvarrel.dir/src/OrbeBonus.cpp.o.provides.build: CMakeFiles/Gunvarre
 
 CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o: ../src/IFabricant.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/IFabricant.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IFabricant.cpp
 
 CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/IFabricant.cpp > CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IFabricant.cpp > CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/IFabricant.cpp -o CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IFabricant.cpp -o CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o.requires
@@ -330,17 +330,17 @@ CMakeFiles/Gunvarrel.dir/src/IFabricant.cpp.o.provides.build: CMakeFiles/Gunvarr
 
 CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o: ../src/Fabriques.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/Fabriques.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Fabriques.cpp
 
 CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/Fabriques.cpp > CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Fabriques.cpp > CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/Fabriques.cpp -o CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/Fabriques.cpp -o CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o.requires
@@ -353,17 +353,17 @@ CMakeFiles/Gunvarrel.dir/src/Fabriques.cpp.o.provides.build: CMakeFiles/Gunvarre
 
 CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o: ../src/IElementMobile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/IElementMobile.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElementMobile.cpp
 
 CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/IElementMobile.cpp > CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElementMobile.cpp > CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/IElementMobile.cpp -o CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/IElementMobile.cpp -o CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o.requires
@@ -376,17 +376,17 @@ CMakeFiles/Gunvarrel.dir/src/IElementMobile.cpp.o.provides.build: CMakeFiles/Gun
 
 CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o: ../src/ElementMobile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/ElementMobile.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/ElementMobile.cpp
 
 CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/ElementMobile.cpp > CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/ElementMobile.cpp > CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/ElementMobile.cpp -o CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/ElementMobile.cpp -o CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o.requires
@@ -399,17 +399,17 @@ CMakeFiles/Gunvarrel.dir/src/ElementMobile.cpp.o.provides.build: CMakeFiles/Gunv
 
 CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o: ../src/TrackBallCamera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/TrackBallCamera.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/TrackBallCamera.cpp
 
 CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/TrackBallCamera.cpp > CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/TrackBallCamera.cpp > CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/TrackBallCamera.cpp -o CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/TrackBallCamera.cpp -o CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o.requires
@@ -422,17 +422,17 @@ CMakeFiles/Gunvarrel.dir/src/TrackBallCamera.cpp.o.provides.build: CMakeFiles/Gu
 
 CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o: ../src/utils/math.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/utils/math.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/math.cpp
 
 CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/utils/math.cpp > CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/math.cpp > CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/utils/math.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/math.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o.requires
@@ -445,17 +445,17 @@ CMakeFiles/Gunvarrel.dir/src/utils/math.cpp.o.provides.build: CMakeFiles/Gunvarr
 
 CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o: ../src/utils/Quaternion/Quaternion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/utils/Quaternion/Quaternion.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/Quaternion/Quaternion.cpp
 
 CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/utils/Quaternion/Quaternion.cpp > CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/Quaternion/Quaternion.cpp > CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/utils/Quaternion/Quaternion.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/Quaternion/Quaternion.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o.requires
@@ -468,17 +468,17 @@ CMakeFiles/Gunvarrel.dir/src/utils/Quaternion/Quaternion.cpp.o.provides.build: C
 
 CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o: ../src/utils/MVG/MVG.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/utils/MVG/MVG.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/MVG/MVG.cpp
 
 CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/utils/MVG/MVG.cpp > CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/MVG/MVG.cpp > CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/utils/MVG/MVG.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/MVG/MVG.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o.requires
@@ -491,17 +491,17 @@ CMakeFiles/Gunvarrel.dir/src/utils/MVG/MVG.cpp.o.provides.build: CMakeFiles/Gunv
 
 CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o: ../src/common/objloader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/common/objloader.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/common/objloader.cpp
 
 CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/common/objloader.cpp > CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/common/objloader.cpp > CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/common/objloader.cpp -o CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/common/objloader.cpp -o CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o.requires
@@ -514,17 +514,17 @@ CMakeFiles/Gunvarrel.dir/src/common/objloader.cpp.o.provides.build: CMakeFiles/G
 
 CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o: ../src/physics/IConstraint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/IConstraint.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IConstraint.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/IConstraint.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IConstraint.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/IConstraint.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IConstraint.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o.requires
@@ -537,17 +537,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/IConstraint.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o: ../src/physics/IForceEffect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/IForceEffect.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IForceEffect.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/IForceEffect.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IForceEffect.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/IForceEffect.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IForceEffect.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o.requires
@@ -560,17 +560,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/IForceEffect.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o: ../src/physics/IMoveable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/IMoveable.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IMoveable.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/IMoveable.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IMoveable.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/IMoveable.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IMoveable.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o.requires
@@ -583,17 +583,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/IMoveable.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o: ../src/physics/IShape.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/IShape.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IShape.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/IShape.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IShape.cpp > CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/IShape.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/IShape.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o.requires
@@ -606,17 +606,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/IShape.cpp.o.provides.build: CMakeFiles/Gun
 
 CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o: ../src/physics/ISimulationObject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/ISimulationObject.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/ISimulationObject.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/ISimulationObject.cpp > CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/ISimulationObject.cpp > CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/ISimulationObject.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/ISimulationObject.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o.requires
@@ -629,17 +629,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/ISimulationObject.cpp.o.provides.build: CMa
 
 CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o: ../src/physics/RigidBody.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/RigidBody.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/RigidBody.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/RigidBody.cpp > CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/RigidBody.cpp > CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/RigidBody.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/RigidBody.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o.requires
@@ -652,17 +652,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/RigidBody.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o: ../src/physics/Simulation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/Simulation.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/Simulation.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/Simulation.cpp > CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/Simulation.cpp > CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/Simulation.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/Simulation.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o.requires
@@ -675,17 +675,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/Simulation.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o: ../src/physics/eval/IBroadPhaseStrategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IBroadPhaseStrategy.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IBroadPhaseStrategy.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IBroadPhaseStrategy.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IBroadPhaseStrategy.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IBroadPhaseStrategy.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IBroadPhaseStrategy.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o.requires
@@ -698,17 +698,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/IBroadPhaseStrategy.cpp.o.provides.bui
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o: ../src/physics/eval/CollisionDetector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/CollisionDetector.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/CollisionDetector.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/CollisionDetector.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/CollisionDetector.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/CollisionDetector.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/CollisionDetector.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o.requires
@@ -721,17 +721,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/CollisionDetector.cpp.o.provides.build
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o: ../src/physics/eval/IUpdater.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IUpdater.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IUpdater.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IUpdater.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IUpdater.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IUpdater.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IUpdater.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o.requires
@@ -744,17 +744,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/IUpdater.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o: ../src/physics/eval/IMidNarrowPhaseStrategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IMidNarrowPhaseStrategy.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IMidNarrowPhaseStrategy.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IMidNarrowPhaseStrategy.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IMidNarrowPhaseStrategy.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IMidNarrowPhaseStrategy.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IMidNarrowPhaseStrategy.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o.requires
@@ -767,17 +767,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/IMidNarrowPhaseStrategy.cpp.o.provides
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o: ../src/physics/eval/IIntegrator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IIntegrator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IIntegrator.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IIntegrator.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IIntegrator.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IIntegrator.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IIntegrator.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o.requires
@@ -790,17 +790,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/IIntegrator.cpp.o.provides.build: CMak
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o: ../src/physics/eval/IContactGenerator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IContactGenerator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IContactGenerator.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IContactGenerator.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IContactGenerator.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IContactGenerator.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IContactGenerator.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o.requires
@@ -813,17 +813,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/IContactGenerator.cpp.o.provides.build
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o: ../src/physics/eval/IConstraintSolverStrategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IConstraintSolverStrategy.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IConstraintSolverStrategy.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IConstraintSolverStrategy.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IConstraintSolverStrategy.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/IConstraintSolverStrategy.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/IConstraintSolverStrategy.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o.requires
@@ -836,17 +836,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/IConstraintSolverStrategy.cpp.o.provid
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o: ../src/physics/eval/Contact.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/Contact.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/Contact.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/Contact.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/Contact.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/Contact.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/Contact.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o.requires
@@ -859,17 +859,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/Contact.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o: ../src/physics/eval/HelperFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/physics/eval/HelperFunctions.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/HelperFunctions.cpp
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/physics/eval/HelperFunctions.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/HelperFunctions.cpp > CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/physics/eval/HelperFunctions.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/physics/eval/HelperFunctions.cpp -o CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o.requires
@@ -882,17 +882,17 @@ CMakeFiles/Gunvarrel.dir/src/physics/eval/HelperFunctions.cpp.o.provides.build: 
 
 CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o: CMakeFiles/Gunvarrel.dir/flags.make
 CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o: ../src/utils/LCPSolver/LCPSolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o -c /home/kevin/Development/RPI/IMUViewer/src/utils/LCPSolver/LCPSolver.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o -c /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/LCPSolver/LCPSolver.cpp
 
 CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/src/utils/LCPSolver/LCPSolver.cpp > CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/LCPSolver/LCPSolver.cpp > CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.i
 
 CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/src/utils/LCPSolver/LCPSolver.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Development/RPI/IMUViewer/IMUViewer/src/utils/LCPSolver/LCPSolver.cpp -o CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.s
 
 CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o.requires:
 .PHONY : CMakeFiles/Gunvarrel.dir/src/utils/LCPSolver/LCPSolver.cpp.o.requires
@@ -1044,6 +1044,6 @@ CMakeFiles/Gunvarrel.dir/clean:
 .PHONY : CMakeFiles/Gunvarrel.dir/clean
 
 CMakeFiles/Gunvarrel.dir/depend:
-	cd /home/kevin/Development/RPI/IMUViewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/Development/RPI/IMUViewer /home/kevin/Development/RPI/IMUViewer /home/kevin/Development/RPI/IMUViewer/build /home/kevin/Development/RPI/IMUViewer/build /home/kevin/Development/RPI/IMUViewer/build/CMakeFiles/Gunvarrel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevin/Development/RPI/IMUViewer/IMUViewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/Development/RPI/IMUViewer/IMUViewer /home/kevin/Development/RPI/IMUViewer/IMUViewer /home/kevin/Development/RPI/IMUViewer/IMUViewer/build /home/kevin/Development/RPI/IMUViewer/IMUViewer/build /home/kevin/Development/RPI/IMUViewer/IMUViewer/build/CMakeFiles/Gunvarrel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Gunvarrel.dir/depend
 

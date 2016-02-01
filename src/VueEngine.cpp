@@ -172,11 +172,18 @@ void VueEngine::Dessiner(float angleX, float angleZ)
 	//----------------------------
 
 	drawGunvarrel();
+	
 	ressourcesMutex.lock();
 	Environnement* env = game->ptrEtat->env;//getEnvironnementFromETATENGINE();
 	ressourcesMutex.unlock();
 	std::string pathElement("../res/element.obj");//el10x10x20.obj");
 
+	if( game->ptrEtat->traj )
+	{
+		game->ptrEtat->traj->draw();
+	}
+	
+	
 #ifdef debug
 ressourcesMutex.lock();
 std::cout << " VUE : " << env->ListeElements.size() << " element(s) to draw." << std::endl;

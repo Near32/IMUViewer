@@ -9,6 +9,7 @@ extern std::mutex ressourcesMutex;
 EtatEngine::EtatEngine(Game* game_, GameState gameState_) : IEngine(game_,gameState_)
 {
 	env = new Environnement();
+	traj = new Traj();
 	
 	init();
 	
@@ -18,6 +19,7 @@ EtatEngine::~EtatEngine()
 {
 	delete env;
 	delete sim;
+	delete traj;
 }
 	
 void EtatEngine::loop()
